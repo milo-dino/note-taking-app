@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian Clone</title>
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/output.css">
+    <script src="../assets/vendor/htmx.min.js"></script>
+</head>
+<body>
+    <h1 id="header1" class="text-red-600">Hello World!</h1>
+    <button hx-get="/goodbyeworld" hx-target="#header1" hx-swap="outerHTML">Swap!</button>
+</body>
+</html>
